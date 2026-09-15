@@ -6,18 +6,3 @@ __pycache__/
 *.py[cod]
 venv/
 
-# Private configuration and authentication
-.env.*
-!.env.example
-credentials.json
-token.json
-token.pickle
-*.pem
-vt
-
-# Private messages and generated reports
-*.eml
-*.EML
-*.mbox
-reports/*
-!reports/README.md
