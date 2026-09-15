@@ -1,11 +1,18 @@
 # FishMail
 
 ```text
-F I S H M A I L
-Inspect the email. Understand the warning signs.
+███████╗██╗███████╗██╗  ██╗███╗   ███╗ █████╗ ██╗██╗
+██╔════╝██║██╔════╝██║  ██║████╗ ████║██╔══██╗██║██║
+█████╗  ██║███████╗███████║██╔████╔██║███████║██║██║
+██╔══╝  ██║╚════██║██╔══██║██║╚██╔╝██║██╔══██║██║██║
+██║     ██║███████║██║  ██║██║ ╚═╝ ██║██║  ██║██║███████╗
+╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  F I S H M A I L     /     EMAIL THREAT ANALYSIS     v0.1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-A beginner Python CLI project by **iwan**, built to start my journey in cybersecurity and learn phishing email analysis one feature at a time.
+A beginner Python CLI project by **iwan**, built to start my journey in cybersecurity and learn phishing email analysis .
 
 ## Project status
 
@@ -79,6 +86,4 @@ Use fictional messages while learning. Real emails, reports, OAuth credentials, 
 
 Future external integrations may send email content, URLs, or other indicators to a provider. That behavior should be explicit and optional. Keep credentials outside Python source files.
 
-## Inspiration
 
-Inspired by [PhishSentinel](https://github.com/cyb2rS2c/PhishSentinel) and its Gmail phishing-analysis workflow. FishMail is my own learning project, built step by step rather than a copy of its implementation.
