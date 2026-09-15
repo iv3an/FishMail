@@ -57,33 +57,6 @@ pfish/
 └── .gitignore
 ```
 
-These folders are preparation for later lessons, not implemented features. We will add Python modules only when we build the corresponding feature.
 
-## Build roadmap
-
-- [x] Create the banner and menu.
-- [x] Ask the user for an email file path.
-- [ ] Validate that the path points to an `.eml` file.
-- [ ] Parse a local email and display From, Reply-To, and Subject.
-- [ ] Extract body text and links without opening links.
-- [ ] Explain suspicious wording and sender/reply domain differences.
-- [ ] Add tests using fictional emails.
-- [ ] Save an analysis report.
-- [ ] Add optional Gmail sign-in and read-only message retrieval.
-- [ ] Let the user choose a date range for Gmail messages.
-- [ ] Add optional VirusTotal reputation lookups with clear limitations.
-- [ ] Explore optional AI explanations after the basic analysis works.
-
-Marking spam or managing sender filters is a possible later extension requiring separate permissions and explicit user confirmation. It is not part of the initial version.
-
-## Learning goals
-
-Practice functions, conditions, loops, file paths, exception handling, email parsing, and eventually API requests and authentication. Build each part in small steps so I can understand and explain the code.
-
-## Email data and API keys
-
-Use fictional messages while learning. Real emails, reports, OAuth credentials, tokens, and API keys should stay out of the repository. The `.gitignore` includes common private-file patterns; it does not remove files already tracked by Git.
-
-Future external integrations may send email content, URLs, or other indicators to a provider. That behavior should be explicit and optional. Keep credentials outside Python source files.
 
 
