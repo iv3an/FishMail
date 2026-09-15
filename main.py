@@ -1,4 +1,5 @@
 import random
+from analyser import analyze_email
 
 banner=r"""
 
@@ -28,9 +29,19 @@ while True:
     """)
     choice=input('> ').strip()
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+
+
+
     if choice == "1":
-        email_path = input("\n[ FishMail ] Enter the path to your .eml file\n> ").strip()
-        print(email_path)
+       email_path = input("\nEnter the .eml file path\n> ").strip()
+       while analyze_email(email_path)==False:
+        break
+       
+
+
+
+
+
 
     elif choice == "2":
         print("""
@@ -41,9 +52,17 @@ while True:
          """)
         
 
+
+
+
+
     elif choice == "0":
         print("\n    [ Goodbye from FishMail — don't take the bait. ]\n")
         break
+
+
+
+
 
     else:
         print("Invalid option. Choose 1, 2, or 0.")
